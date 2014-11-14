@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="render_control.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-pagebuilder-2/" local="130569036791596402" remote="130569036600000000" Dst="2" />
 <file name="autoload_control.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-pagebuilder-2/" local="130569039585851640" remote="130569039000000000" Dst="2" />
-<file name="editor_control.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-pagebuilder-2/" local="130584003176336516" remote="130584003000000000" Dst="2" />
+<file name="editor_control.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-pagebuilder-2/" local="130586648043187399" remote="130586647800000000" Dst="2" />
+<file name="widget_control.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-pagebuilder-2/" local="130585807286975469" remote="130585807200000000" Dst="2" />
+<file name="display_control.php" server="ftp.wpdev.cahnrs.wsu.edu//public_html/m1.wpdev.cahnrs.wsu.edu/wp-content/plugins/cahnrs-pagebuilder-2/" local="130586578056252358" remote="130586577600000000" Dst="2" />
 </dwsync>

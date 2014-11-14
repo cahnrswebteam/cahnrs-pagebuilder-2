@@ -5,6 +5,7 @@ class editor_control{
 	public function add_editor(){
 		global $post; // Get global post object
 		$layout_model = new layout_model( $post , $post->post_content ); // Set editor model
+		$layout_model->set_items_models();
 		$editor_view = new editor_view( $this , $layout_model ); // Set editor view
 		$editor_view->print_editor(); // Render View
 	}

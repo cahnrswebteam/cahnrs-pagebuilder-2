@@ -30,11 +30,12 @@ class init_plugin{
 		} else {
 			$this->init_public(); // Handle public stuff
 		}
+		$widgets = new widget_control();
 	}
 	
 	private function init_public(){
 		
-		$this->render_controller = new render_control;
+		$this->display_controller = new display_control;
 		
 		/** render_control ******************************
 		* Builds document structure and renders it on public side *
@@ -42,7 +43,7 @@ class init_plugin{
 		* Some internal handling is needed so it doesn't create infinite loops *
 		* resulting from the use of "apply_filters("the_content..." inside plugins *
 		*************************************************/
-		\add_filter( 'the_content', array( $this->render_controller , 'build_layout' ), 99 );
+		\add_filter( 'the_content', array( $this->display_controller , 'get_public_display' ), 99 );
 	}
 	
 	private function init_admin(){

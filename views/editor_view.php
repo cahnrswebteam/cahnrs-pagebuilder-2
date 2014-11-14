@@ -15,8 +15,9 @@ class editor_view{
 	}
 	
 	public function get_layout_editor(){
+		
 		if( isset( $this->layout_model->layout ) && $this->layout_model->layout ){
-			foreach( $this->layout_model->layout as $row_id => $row_data ){
+			foreach( $this->layout_model->layout as $row_key => $row_data ){
 				include DIR.'inc/editor_layout.php';
 			}
 		}
